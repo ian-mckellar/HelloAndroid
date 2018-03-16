@@ -19,12 +19,12 @@
 
     <TextView
         android:id="@+id/website"
+        android:autoLink="web"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/address"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/coiny"
-        android:paddingBottom="24sp"
         android:text="www.udacity.com"
         android:textColor="@android:color/white"
         android:textSize="24sp" />
@@ -38,8 +38,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:fontFamily="@font/coiny"
-        android:paddingBottom="24sp"
-        android:paddingTop="24sp"
+        android:padding="24sp"
         android:text="2465 Latham St, Mountain View, CA 94043"
         android:textColor="@android:color/white"
         android:textSize="24sp" />
@@ -52,7 +51,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/coiny"
-        android:paddingTop="24sp"
         android:text="650-555-5555"
         android:textColor="@android:color/white"
         android:textSize="24sp" />
